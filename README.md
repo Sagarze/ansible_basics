@@ -6,7 +6,7 @@
 #### Commands
   * sudo su --first go to root
 #### How do I enable the EPEL repository for my Amazon EC2 instance running CentOS, RHEL, or Amazon Linux?
-  * https://aws.amazon.com/premiumsupport/knowledge-center/ec2-enable-epel/
+  * https://aws.amazon.com/premiumsupport/knowledge-center/ec2-enable-epel/      and go to the resolution part and select and copy the first sudo yum ..... command
 #### update local caches
   * yum update 
 #### Once will intall epel-release and update caches, we are going to need git  because git is the very common components for promoting builds. You need to have python, development and libraries, python pip -- which is the module manager for python, open ssl and ansible. 
